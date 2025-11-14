@@ -31,8 +31,7 @@ const ReadMoreStyled = styled.p`
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    
-
+    padding-bottom: 20px;
 `
 const StyledTitle = styled.h1`
     font-weight: 400;

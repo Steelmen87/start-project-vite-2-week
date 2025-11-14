@@ -12,7 +12,7 @@ export const Container = styled.div<PropsType>`
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+   
     height: ${props=>props.heightMax || "100%"};
     @media screen and (max-width: 910px) {
         height: ${props=>props.heightMin || "100%"};

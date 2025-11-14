@@ -23,7 +23,7 @@ const process = [{
 ]
 export const OurProcess = () => {
     return (
-        <Container heightMax={"63vh"} heightMin={"116vh"}>
+        <Container heightMax={"50vh"} heightMin={"100vh"}>
             <MainBlock>
                 <NameSection>Our Process</NameSection>
                 <Slogon>How we do what we do.</Slogon>
@@ -62,6 +62,7 @@ const Process = styled.div`
     flex-direction: column;
     @media screen and (min-height: 790px) {
         height: 50%;
+         
     }
 `
 //<Container heightMax={"50vh"} heightMin={"50vh"}>
